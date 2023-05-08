@@ -4,3 +4,47 @@
     box-sizing: border-box;
     border: 1px black solid;
 }
+
+h1,p{
+    color: azure;
+    text-align: center;
+    
+}
+
+.container {background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(38, 32, 156) 0%, rgb(25, 25, 75) 35%, rgb(20, 20, 20) 100%);
+    display: flex;
+    
+}
+
+#container_left-section {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 100vh;
+  
+}
+
+#container_right-section {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 100vh;
+}
+
+.section_header {
+    height: 10vh;
+    width: 100%;
+}
+
+.section_main {
+    position: relative;
+    width: 100%;
+    height: 80%;
+}
+
+.section-footer {
+    position: relative;
+    height: 10vh;
+    width: 100%;
+}
