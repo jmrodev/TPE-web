@@ -5,6 +5,6 @@
     border: 1px black solid;
 }
 body{
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,17,1) 35%, rgba(255,0,82,1) 100%);
+   background: rgb(3,2,10);
+background: linear-gradient(263deg, rgba(3,2,10,0.9780287114845938) 2%, rgba(8,1,1,1) 47%, rgba(255,0,0,1) 100%);
 }
