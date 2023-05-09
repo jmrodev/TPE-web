@@ -8,3 +8,38 @@ body{
    background: rgb(3,2,10);
 background: linear-gradient(263deg, rgba(3,2,10,0.9780287114845938) 2%, rgba(8,1,1,1) 47%, rgba(255,0,0,1) 100%);
 }
+.container{
+    display: flex;
+}
+#container_left_header{
+    width: 100vb;
+    height: 60vh;
+    background-color: bisque;
+}
+#container_right_aside{
+    width: 100vh;
+    height: 60vh;
+    background-color: aliceblue;
+    }
+nav li {
+  background-color: black;
+  text-align: center;
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+ 
+ 
+}
+nav a {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color:white;
+ 
+  
+}
+img{
+    width: 60%;
+    height: 100%;
+}
