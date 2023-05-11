@@ -45,3 +45,29 @@ img{
     width: 45vw;
     margin: auto ;
 }
+h1{
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+    
+   
+}
+li{
+    margin: 0 10px;
+    font-size: 20px;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
