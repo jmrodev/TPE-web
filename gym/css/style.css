@@ -18,6 +18,8 @@ header{
     background-color: #50a529;
     height: 10vh;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 main{
     background-color: #2940a5;
@@ -25,6 +27,7 @@ main{
     width: 100%;
     display: flex;
     flex-direction: row;
+    
 }
 footer{
     background-color: #8829a5;
@@ -44,11 +47,12 @@ footer{
 img{
     width: 45vw;
     margin: auto ;
+    
 }
 h1{
     font-size: 30px;
     color: white;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 nav ul{
     display: flex;
@@ -70,4 +74,5 @@ a{
     color: white;
     font-weight: bold;
     border: none;
+    gap: 2rem;
 }
