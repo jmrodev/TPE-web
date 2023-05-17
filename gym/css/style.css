@@ -4,47 +4,95 @@
     box-sizing: border-box;
     border: 1px black solid;
 }
-
-h1,p{
-    color: azure;
-    text-align: center;
-    
+body{
+   background: rgb(3,2,10);
+background: linear-gradient(263deg, rgba(3,2,10,0.9780287114845938) 2%, rgba(8,1,1,1) 47%, rgba(255,0,0,1) 100%);
+   overflow:hidden;
 }
-
-.container {background: rgb(2,0,36);
-background: linear-gradient(90deg, rgb(38, 32, 156) 0%, rgb(25, 25, 75) 35%, rgb(20, 20, 20) 100%);
-    display: flex;
-    
-}
-
-#container_left-section {
+.container{
     display: flex;
     flex-direction: column;
-    width: 50vw;
-    height: 100vh;
-  
 }
 
-#container_right-section {
+header{
+    display: flex;
+    align-items: center;
+    /* background-color: #50a529; */
+    height: 20vh;
+}
+main{
+    /*background-color: #2940a5;*/
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+footer{
+    /*background-color: #8829a5;*/
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 2rem
+}
+.row{
+    height: 100%;
+    width: 100%;
+}
+#row-right{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+#row-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img{
+    width: 45vw;
+    margin: auto ;
+    
+}
+h1{
+    font-size: 30px;
+    color: white;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    list-style: none;
+}
+li{
+    margin: 0 10px;
+    font-size: 20px;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: none;
+    gap: 2rem;
+    
+}
+#logo{
+   
+width: 50vw;
+align-items: center;
+}
+#logo > h1{
+    text-align:start;
+    margin: 0 0 0 5rem ;
+}
+#navbar{  
     width: 50vw;
-    height: 100vh;
 }
-
-.section_header {
-    height: 10vh;
-    width: 100%;
-}
-
-.section_main {
-    position: relative;
-    width: 100%;
-    height: 80%;
-}
-
-.section-footer {
-    position: relative;
-    height: 10vh;
-    width: 100%;
+.social-media{
+    display: flex;
+    flex-direction: row;
 }
