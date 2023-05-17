@@ -96,8 +96,3 @@ align-items: center;
     display: flex;
     flex-direction: row;
 }
-.social-media_img{
-    width: 2rem;
-    margin: 0 1rem;
-    background-color: #fff;
-}
