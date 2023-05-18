@@ -85,7 +85,7 @@ a{
 width: 50vw;
 align-items: center;
 }
-logo > h1{
+#logo > h1{
     font-family: 'Open Sans', sans-serif;
     text-align:start;
     margin: 0 0 0 5rem ;
